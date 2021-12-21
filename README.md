@@ -1,5 +1,11 @@
-# ProjectDocs
+# Team CCC Project Documentation
+The following repo holds all the code and documentation for the 21WSD001 - Team Project.
 
-This is the main project directory, each team has one and cannot be removed.
+The project is split into 3 main parts
+||Description| Link|
+|--|--|--|
+| **Dashboard** | The GUI that will display the data from the cloud server |[GitHub](https://github.com/ajayvarghese2000/Dashboard) |
+|**Cloud Server** | Handles all communication from the drones and to the end user| GitHub|
+|**Drone Firmware** | Software to run the drone and sensors | GitHub |
 
-ProjectDocs is the starting point for your PST and your examiners, make sure you direct to other repositories here and add content that fits the project as a whole rather than one subsystem.
+*These files have been linked to this repository but for the most up-to-date versions visit the GitHub page using the links above*
