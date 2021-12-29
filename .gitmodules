@@ -1,3 +1,9 @@
 [submodule "Dashboard"]
 	path = Dashboard
 	url = https://github.com/ajayvarghese2000/Dashboard
+[submodule "Cloud-Server"]
+	path = Cloud-Server
+	url = https://github.com/ajayvarghese2000/Cloud-Server
+[submodule "Simulated-Drone"]
+	path = Simulated-Drone
+	url = https://github.com/ajayvarghese2000/Simulated-Drone
