@@ -59,7 +59,7 @@ Usually, a team of people is sent in to the area of interest to collect data and
 
 The drone is fitted with a range of sensors such as, a geiger counter, gas detector, temperature sensors, particulates detector and, thermal and object detection cameras. All of which will feed data back to a central server which can then be viewed by the user though the dashboard. 
 
-They can then use this data to plan an effective response strategy for the situation at hand. The drone will give them all they data about what parts are the most dangerous, what parts are fine which will all without endangering the user themselves.
+They can then use this data to plan an effective response strategy for the situation at hand. The drone will give them all they data about what parts are the most dangerous, what parts are fine all without endangering the user themselves.
 
 ----
 
