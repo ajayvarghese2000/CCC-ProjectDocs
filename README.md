@@ -162,7 +162,7 @@ They can then use this data to plan an effective response strategy for the situa
 |Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
 |--|--|--|--|:--:|
 
-*No test plan has been developed yet as the parts and sensors fro the done have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up*
+*No test plan has been developed yet as the parts and sensors for the drone have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up*
 
 </div>
 
