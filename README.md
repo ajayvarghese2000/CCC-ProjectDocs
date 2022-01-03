@@ -55,7 +55,7 @@ The project is split into 4 main parts
 
 ## Inventory List
 
-<p align="center">
+<div align="center">
 
 | Item | Where is/Who has it | Date Received | Date taken From Locker |
 |:--:|:--:|:--:|:--:|
@@ -71,7 +71,7 @@ The project is split into 4 main parts
 | Logitech Camera				| Ajay	 	| 12 Nov 2021 | 10 Dec 2022	|
 | Tool Bag						| Locker 	| 12 Nov 2021 | 			|
 
-</p>
+</div>
 
 ----
 
