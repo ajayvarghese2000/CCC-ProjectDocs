@@ -45,7 +45,17 @@ The project is split into 4 main parts
 ----
 
 ## Project Overview
+This project aims to create a module that can be fitted to a drone to aid first responders in disaster relief by providing them with useful data so that they can properly assess the risk of an area post-disaster and, effectively implement a relief strategy in oder to reduce the time and risk taken by responders.
 
+Disaster preparedness and awareness has taken centerstage around the globe and if the response to COVID is any indication, it is clear to see countries are hilariously underprepared to properly handle disasters. 
+
+Although, this project does not aim to ease the response to pandemics it aim to ease the response to disasters such as, radiation leeks, hazardous chemical spills, earthquakes, floods, fires and other physical disasters where sending in people would be dangerous due to the lack of data on how hazardous the situation is currently.
+
+Usually, a team of people is sent in to the area of interest to collect data and identify how best to proceed. However, this puts them in an unknown amount of risk. Our module can be attached to a drone to that can be sent ahead of the team to analyse the situation faster and safer rather than risking peoples lives.
+
+The drone is fitted with a range of sensors such as, a geiger counter, gas detector, temperature sensors, particulates detector and, thermal and object detection cameras. All of which will feed data back to a central server which can then be viewed by the user though the dashboard. 
+
+They can then use this data to plan an effective response strategy for the situation at hand. The drone will give them all they data about what parts are the most dangerous, what parts are fine which will all without endangering the user themselves.
 
 ----
 
@@ -76,7 +86,9 @@ The project is split into 4 main parts
 |3D Printing Budget| Loughborough University | £15.00 |
 ||**Total Cost**| **£131.70**|
 	
-*All prices include VAT @20%*
+**All prices include VAT @20%**
+
+*These numbers do not include kit received from the university*
 
 </div>
 
@@ -105,6 +117,68 @@ The project is split into 4 main parts
 ----
 
 ## Test Plan
+
+*The Simulated Drone project was created explicitly to test the server and GUI without the actual drone needing to be present. This way, development for both those parts of the system can commence even before parts for the drone were ordered.*
+
+<div align="center">
+
+### Server
+
+|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
+|--|--|--|--|:--:|
+|Show the GUI when a user visits the home URL `/`|Use a web browser to visit the home URL and observe the result|The dashboard should be shown and the user should be prompted to login|The dashboard is shown and the user is prompted to login|:heavy_check_mark:|
+|Return a JSON object filled with the drones that are currently connected to the server when a GET request is processed on the `/drones` endpoint|Use the built-in API endpoint tester to send a GET request to the server and observer the result|The server should return a JSON object with the ID's of the drones connected to the server at any given point|The server does return a JSON object of the drones connected to the server|:heavy_check_mark:|
+|Needs to add a new drone to the list of drones connected when a new drone connects to the server using the API endpoint ` /drones/{dname}`|Use the simulated drone tool to register itself with the server, then verify it's successes using the `/drones` API endpoint.|The server should return a JSON object indicating if it could successfully add a new drone to the connected drone list or not.|The Server returns a JSON object with a 200 status code indicating a success which can be verifiable using the `/drones` endpoint or the GUI.|:heavy_check_mark:|
+|Needs to remove a drone from the list of connected drones when a drone disconnects using the API endpoint `/removedrone/{dname}`|Us the simulated drone tool to disconnect from the server, then verify it's successes using the `/drones` API endpoint.|The server should return a JSON object indicating if it could successfully remove the drone from the connected drone list or not.|The Server returns a JSON object with a 200 status code indicating a success which can be verifiable using the `/drones` endpoint or the GUI.|:heavy_check_mark:|
+|Open a websocket with the drones ID when a drone connects and emmit the data the drone sends to the server to that websocket|Use the simulated drone tool to connect to and send data to the server then listen to the response on the websocket with the drone ID to see if the server echoes the data sent back.|The console of the simulated drone should display the data it sent to the server/The data should be shown on the GUI|The console does echo the data the drone sent and the GUI does show the data.|:heavy_check_mark:|
+</div>
+
+<div align="center">
+
+### GUI
+
+|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
+|--|--|--|--|:--:|
+|Display the drones that are connected connected to the server on the sidebar with their drone ID|Use the simulated drone to connect to the server and observer the result.|A new drone should show up on the side bar|A drone does show up on the side bar when a new drone connects|:heavy_check_mark:|
+|Listen for data on the websocket of the selected drone|Use the simulated drone to connect a number of drones to the server and send data then select a drone and, see if the GUI displays the data in the console.|The data from the correct connected drone should appear in the console.|The data did appear in the console from the correct drone this will be displayed to the user using the GUI|:heavy_check_mark:|
+|Display the data from the drone on the `Main` page of the GUI if the required format|Send data using the simulated drone tool and observe the page.|The data from the drone should appear in the main page. The feeds from the camera should be in its respective box's, the geiger dial should change depending on the reading. The other sensor values should be displayed correctly and graphs of the gas detected and the particulates detected should be plot.|Everything works as intended, the camera feeds are displayed in the correct box, the geiger dial changes with the data, the sensor values are displayed properly and the graphs are plotted as intended.|:heavy_check_mark:|
+|Display the AI camera feed from the selected drone on the `AI Cam` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the AI cam should be shown.|*Feature not implemented yet*|❌|
+|Display the Thermal camera feed from the selected drone of the `Thermal Cam` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the thermal camera should be shown|*Feature not implemented yet*|❌|
+|Display the Radiation history in both CPM and mSv from the selected drone of the `Radiation History` page of the GUI|Send data using the simulated drone tool and observe the page.|Two graphs should be shown, one for the radiation in CPM and one in mSv|*Feature not implemented yet*|❌|
+|Display the Pollution history from the selected drone of the `Pollution History` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the pollution graph should be shown|*Feature not implemented yet*|❌|
+|Display the Gas history from the selected drone of the `Gas History` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the Gas graph should be shown|*Feature not implemented yet*|❌|
+|Display the drone's position on the map and tag critical reading on the map using the GPS data from the readings.|Send data using the simulated drone tool and observe the page.|A map should be shown the the drones current location, and dangerous locations should be highlighted.|*Feature not implemented yet*|❌|
+
+</div>
+
+<div align="center">
+
+### Actual Drone
+
+|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
+|--|--|--|--|:--:|
+
+*No test plan has been developed yet as the parts and sensors fro the done have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up*
+
+</div>
+
+<div align="center">
+
+### Simulated Drone
+
+|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
+|--|--|--|--|:--:|
+|Connect to the server|Get the drone to connect to the correct server endpoint then verify its connection using the API testing tools/GUI|A new drone should show up on the server|The correct drone is added to the server list.|:heavy_check_mark:|
+|Disconnect from the server|Get the drone to disconnect from the server using the correct endpoint then verify its status using the API testing tools/GUI|The drone should be removed from the server list|The correct drone is removed from the server list.|:heavy_check_mark:|
+|Display the camera feed|Run the program and see if the specified camera feed is displayed|The correct camera feed to be displayed in the camera box|The correct camera that is specified in the code is displayed.|:heavy_check_mark:|
+|Run the object detection neural network on the camera feed|Run the program and observer if it detects objects|Boxes should be drawn around the detected object and the object should be labelled|Boxes are draw around the object and are labelled correctly.|:heavy_check_mark:|
+|Connect to the server websocket|Run the program and attempt to connect to the server.|The client should report that a successful connection was made|The client does report a successful connection|:heavy_check_mark:|
+|Send the data packet to the server|Run the program, connect to the server and send the data. The data should be received by the server and sent to any GUI's connected. If the data is received by the GUI the it was successfully sent|The GUI displays the data correctly|The GUI does display the data correctly.|:heavy_check_mark:|
+
+</div>
+
+
+
 
 ----
 
