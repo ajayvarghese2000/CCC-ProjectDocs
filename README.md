@@ -18,12 +18,16 @@
 The following repo holds all the code and documentation for the 21WSD001 - Team Project.
 
 The project is split into 4 main parts
+<div align="center">
+
 ||Description| Link|
 |--|--|--|
 | **Dashboard** | The GUI that will display the data from the cloud server |[GitHub](https://github.com/ajayvarghese2000/Dashboard) |
 |**Cloud Server** | Handles all communication from the drones and to the end user| [GitHub](https://github.com/ajayvarghese2000/Cloud-Server)|
 |**Drone Firmware** | Software to run the drone and sensors | GitHub |
 |**Simulated Drone** | Software to simulate the drone sensors to test server and GUI | [GitHub](https://github.com/ajayvarghese2000/Simulated-Drone) |
+
+</div>
 
 *These files have been linked to this repository but for the most up-to-date versions visit the GitHub page using the links above*
 
