@@ -26,3 +26,52 @@ The project is split into 4 main parts
 |**Simulated Drone** | Software to simulate the drone sensors to test server and GUI | [GitHub](https://github.com/ajayvarghese2000/Simulated-Drone) |
 
 *These files have been linked to this repository but for the most up-to-date versions visit the GitHub page using the links above*
+
+----
+
+## Table of Contents
+- [Project Overview](#Project-Overview)
+- [Development Plan](#Development-Plan)
+- [Budget](#Budget)
+- [Inventory List](#Inventory-List)
+- [Test Plan](#Test-Plan)
+
+----
+
+## Project Overview
+
+
+----
+
+## Development Plan
+
+
+----
+
+## Budget
+
+
+----
+
+## Inventory List
+| Item | Where is/Who has it | Date Received | Date taken From Locker |
+|:--:|:--:|:--:|:--:|
+| Raspberry Pi 3 + Accessories	| Locker 	| 12 Nov 2021 |				|
+| Raspberry Pi 3 + Accessories	| Jen		| 12 Nov 2021 | 17 Dec 2021	|
+| Raspberry Pi 4 + Accessories	| Ajay 		| 12 Nov 2021 | 10 Dec 2021 |
+| Track Robot					| Dev 		| 12 Nov 2021 | 17 Dec 2021 |
+| XT60 Battery					| Locker 	| 12 Nov 2021 | 			|
+| XT60 Battery					| Locker 	| 12 Nov 2021 | 			|
+| XT60 Battery charger			| Locker 	| 12 Nov 2021 | 			|
+| Tetrix Robot					| Locker 	| 12 Nov 2021 | 			|
+| Raspberry Pi Cam				| Locker 	| 12 Nov 2021 | 			|
+| Logitech Camera				| Ajay	 	| 12 Nov 2021 | 10 Dec 2022	|
+| Tool Bag						| Locker 	| 12 Nov 2021 | 			|
+
+----
+
+## Test Plan
+
+----
+
+
