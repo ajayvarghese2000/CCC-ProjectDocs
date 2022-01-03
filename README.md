@@ -54,6 +54,9 @@ The project is split into 4 main parts
 ----
 
 ## Inventory List
+
+<p align="center">
+
 | Item | Where is/Who has it | Date Received | Date taken From Locker |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi 3 + Accessories	| Locker 	| 12 Nov 2021 |				|
@@ -67,6 +70,8 @@ The project is split into 4 main parts
 | Raspberry Pi Cam				| Locker 	| 12 Nov 2021 | 			|
 | Logitech Camera				| Ajay	 	| 12 Nov 2021 | 10 Dec 2022	|
 | Tool Bag						| Locker 	| 12 Nov 2021 | 			|
+
+</p>
 
 ----
 
