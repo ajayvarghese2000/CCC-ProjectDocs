@@ -72,8 +72,9 @@ The project is split into 4 main parts
 | Item 	| Supplier 	| Cost |
 |:--:|:--:|:--:|
 |[NVIDIA Jetson Nano](https://uk.rs-online.com/web/p/processor-development-tools/1999831)| RS Components | £91.80 |
+|[PMS5003 Particulate Matter Sensor](https://thepihut.com/products/pms5003-particulate-matter-sensor-with-cable)| Pi Hut | £24.90 |
 |3D Printing Budget| Loughborough University | £15.00 |
-||**Total Cost**| **£106.80**|
+||**Total Cost**| **£131.70**|
 	
 *All prices include VAT @20%*
 
