@@ -70,10 +70,12 @@ The project is split into 4 main parts
 ### Future Expenditure
 
 | Item 	| Supplier 	| Cost |
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|
 |[NVIDIA Jetson Nano](https://uk.rs-online.com/web/p/processor-development-tools/1999831)| RS Components | £91.80 |
 |3D Printing Budget| Loughborough University | £15.00 |
 ||**Total Cost**| **£106.80**|
+	
+*All prices include VAT @20%*
 
 </div>
 
