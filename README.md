@@ -116,6 +116,7 @@ They can then use this data to plan an effective response strategy for the situa
 | Raspberry Pi Cam				| Locker 	| 12 Nov 2021 | 			|
 | Logitech Camera				| Ajay	 	| 12 Nov 2021 | 10 Dec 2022	|
 | Tool Bag						| Locker 	| 12 Nov 2021 | 			|
+| Geiger Counter				| Ajay 	| 03 Jan 2022 | 12 Jan 2022			|
 
 </div>
 
