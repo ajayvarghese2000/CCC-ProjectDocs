@@ -117,6 +117,8 @@ They can then use this data to plan an effective response strategy for the situa
 | Logitech Camera				| Ajay	 	| 12 Nov 2021 | 10 Dec 2022	|
 | Tool Bag						| Locker 	| 12 Nov 2021 | 			|
 | Geiger Counter				| Ajay 	| 03 Jan 2022 | 12 Jan 2022			|
+| MLX90540 Thermal Camera			| Locker 	| 12 Jan 2022 | 			|
+| Enviro+					| Locker 	| 12 Jan 2022 | 			|
 
 </div>
 
