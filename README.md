@@ -64,8 +64,20 @@ They can then use this data to plan an effective response strategy for the situa
 ----
 
 ## Development Plan
+The initial stage of the project requires an identification of requirements from the stakeholders. From these requirements the functionalities of the drone's main systems and subsystems can be determined. Below are the stakeholders involved in this project:
+<div align="center">
 
+|Categorisation|Stakeholder(s)|
+|--|--|
+| **Primary** | Operators. Emergency services |
+|**Secondary** | Civilians |
+|**Tertiary** | Government. Lecturers. Technicians. Maintenance |
 
+<div align="left">	
+From the above stakeholders the following requirements of the system were generated:
+	
+Operational:To collect data and compile into the interface for the user to view data regarding the state of the disaster zone, the location of survivors, and a map of the safest             route to the survivors 
+	
 ----
 
 ## Budget
