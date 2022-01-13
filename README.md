@@ -85,11 +85,11 @@ They can then use this data to plan an effective response strategy for the situa
 
 | Item 	| Supplier 	| Cost |
 |:--:|:--:|:--:|
-|[NVIDIA Jetson Nano](https://uk.rs-online.com/web/p/processor-development-tools/1999831)| RS Components | £91.80 |
+|[NVIDIA Jetson Nano](https://www.okdo.com/p/nvidia-jetson-nano-2gb-development-kit-with-wifi-bundle/)| Okdo | £56.30 |
 |[PMS5003 Particulate Matter Sensor](https://thepihut.com/products/pms5003-particulate-matter-sensor-with-cable)| Pi Hut | £24.90 |
 |3D Printing Budget| Loughborough University | £15.00 |
 |2x Raspberry Pi Picos| Pi Hut | £7.20 |
-||**Total Cost**| **£138.90**|
+||**Total Cost**| **£103.40**|
 
 **All prices include VAT @20%**
 
