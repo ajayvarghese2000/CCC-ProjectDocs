@@ -6,10 +6,10 @@
 
 <p align="center">
 	<a href="https://github.com/lboroWMEME-TeamProject/CCC-ProjectDocs"><img src="https://i.imgur.com/rBaZyub.png" alt="drawing" height = 33/></a> 
-	<a href="https://github.com/ajayvarghese2000/Dashboard"><img src="https://i.imgur.com/fz7rgd9.png" alt="drawing" height = 33/></a> 
-	<a href="https://github.com/ajayvarghese2000/Cloud-Server"><img src="https://i.imgur.com/bsimXcV.png" alt="drawing" height = 33/></a> 
+	<a href="https://github.com/lboroWMEME-TeamProject/Dashboard"><img src="https://i.imgur.com/fz7rgd9.png" alt="drawing" height = 33/></a> 
+	<a href="https://github.com/lboroWMEME-TeamProject/Cloud-Server"><img src="https://i.imgur.com/bsimXcV.png" alt="drawing" height = 33/></a> 
 	<a><img src="https://i.imgur.com/yKFokIL.png" alt="drawing" height = 33/></a> 
-	<a href="https://github.com/ajayvarghese2000/Simulated-Drone"><img src="https://i.imgur.com/WMOZbrf.png" alt="drawing" height = 33/></a>
+	<a href="https://github.com/lboroWMEME-TeamProject/Simulated-Drone"><img src="https://i.imgur.com/WMOZbrf.png" alt="drawing" height = 33/></a>
 </p>
 
 ------------
@@ -22,10 +22,10 @@ The project is split into 4 main parts
 
 ||Description| Link|
 |--|--|--|
-| **Dashboard** | The GUI that will display the data from the cloud server |[GitHub](https://github.com/ajayvarghese2000/Dashboard) |
-|**Cloud Server** | Handles all communication from the drones and to the end user| [GitHub](https://github.com/ajayvarghese2000/Cloud-Server)|
+| **Dashboard** | The GUI that will display the data from the cloud server |[GitHub](https://github.com/lboroWMEME-TeamProject/Dashboard) |
+|**Cloud Server** | Handles all communication from the drones and to the end user| [GitHub](https://github.com/lboroWMEME-TeamProject/Cloud-Server)|
 |**Drone Firmware** | Software to run the drone and sensors | GitHub |
-|**Simulated Drone** | Software to simulate the drone sensors to test server and GUI | [GitHub](https://github.com/ajayvarghese2000/Simulated-Drone) |
+|**Simulated Drone** | Software to simulate the drone sensors to test server and GUI | [GitHub](https://github.com/lboroWMEME-TeamProject/Simulated-Drone) |
 
 </div>
 
