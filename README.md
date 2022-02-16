@@ -97,11 +97,13 @@ Operational:To collect data and compile into the interface for the user to view 
 
 | Item 	| Supplier 	| Cost |
 |:--:|:--:|:--:|
-|[NVIDIA Jetson Nano](https://www.okdo.com/p/nvidia-jetson-nano-2gb-development-kit-with-wifi-bundle/)| Okdo | £56.30 |
-|[PMS5003 Particulate Matter Sensor](https://thepihut.com/products/pms5003-particulate-matter-sensor-with-cable)| Pi Hut | £24.90 |
-|3D Printing Budget| Loughborough University | £15.00 |
-|2x Raspberry Pi Picos| Pi Hut | £7.20 |
-||**Total Cost**| **£103.40**|
+|[NVIDIA Jetson Nano](https://www.robotshop.com/uk/nvidia-jetson-nano-2gb-development-kit-w-wifi-bundle.html)| Robot Shop | £72.59 |
+|[PMS5003 Particulate Matter Sensor](https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable)| Pimoroni | £24.90 |
+|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni | £3.60 |
+|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni | £3.60 |
+|3D Printing Budget| Loughborough University | £25.00 |
+|PCB Fabrication| Loughborough University | £20.00 |
+||**Total Cost**| **£149.69**|
 
 **All prices include VAT @20%**
 
