@@ -177,11 +177,13 @@ Operational:To collect data and compile into the interface for the user to view 
 <div align="center">
 
 ### Actual Drone
+Subsystem: Geiger Counter	
 
 |Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
 |--|--|--|--|:--:|
+|Connect to Raspberry Pi Pico|Obtain values directly from Pi Pico and printing them through **chosen software program**|The values should display on screen|Testing not yet implement|To be annouced post testing|
 
-*No test plan has been developed yet as the parts and sensors for the drone have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up*
+*Only parts of the test plan have been developed as some parts and sensors for the drone have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up for that relevant subsystem*
 
 </div>
 
