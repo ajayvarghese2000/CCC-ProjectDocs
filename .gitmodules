@@ -7,3 +7,6 @@
 [submodule "Simulated-Drone"]
 	path = Simulated-Drone
 	url = https://github.com/lboroWMEME-TeamProject/Simulated-Drone
+[submodule "Drone-Firmware"]
+	path = Drone-Firmware
+	url = https://github.com/lboroWMEME-TeamProject/Drone-Firmware
