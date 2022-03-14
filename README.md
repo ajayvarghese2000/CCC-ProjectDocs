@@ -24,7 +24,7 @@ The project is split into 4 main parts
 |--|--|--|
 | **Dashboard** | The GUI that will display the data from the cloud server |[GitHub](https://github.com/lboroWMEME-TeamProject/Dashboard) |
 |**Cloud Server** | Handles all communication from the drones and to the end user| [GitHub](https://github.com/lboroWMEME-TeamProject/Cloud-Server)|
-|**Drone Firmware** | Software to run the drone and sensors | GitHub |
+|**Drone Firmware** | Software to run the drone and sensors | [GitHub](https://github.com/lboroWMEME-TeamProject/Drone-Firmware) |
 |**Simulated Drone** | Software to simulate the drone sensors to test server and GUI | [GitHub](https://github.com/lboroWMEME-TeamProject/Simulated-Drone) |
 
 </div>
