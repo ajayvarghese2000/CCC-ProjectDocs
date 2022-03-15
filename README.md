@@ -41,10 +41,6 @@ The project is split into 4 main parts
 	- [Future Expenditure](#Future-Expenditure)
 - [Inventory List](#Inventory-List)
 - [Test Plan](#Test-Plan)
-	- [Server](#server)
-	- [GUI](#gui)
-	- [Actual Drone](#actual-drone)
-	- [Simulated Drone](#simulated-drone)
 
 ----
 
