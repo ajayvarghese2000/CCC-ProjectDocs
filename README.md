@@ -142,73 +142,18 @@ Operational:To collect data and compile into the interface for the user to view 
 
 ## Test Plan
 
+The test plan for the subsystems can be found on their respective repos.
+
+[Dashboard Test Plan](https://github.com/lboroWMEME-TeamProject/Dashboard#Test-Plan)
+
+[Server Test Plan](https://github.com/lboroWMEME-TeamProject/Cloud-Server#Test-Plan)
+
+[Simulated Drone Test Plan](https://github.com/lboroWMEME-TeamProject/Simulated-Drone#Test-Plan)
+
+[Geiger Counter Test Plan](https://github.com/lboroWMEME-TeamProject/Geiger-Counter#Test-Plan)
+
+
 *The Simulated Drone project was created explicitly to test the server and GUI without the actual drone needing to be present. This way, development for both those parts of the system can commence even before parts for the drone were ordered.*
-
-<div align="center">
-
-### Server
-
-|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
-|--|--|--|--|:--:|
-|Show the GUI when a user visits the home URL `/`|Use a web browser to visit the home URL and observe the result|The dashboard should be shown and the user should be prompted to login|The dashboard is shown and the user is prompted to login|:heavy_check_mark:|
-|Return a JSON object filled with the drones that are currently connected to the server when a GET request is processed on the `/drones` endpoint|Use the built-in API endpoint tester to send a GET request to the server and observer the result|The server should return a JSON object with the ID's of the drones connected to the server at any given point|The server does return a JSON object of the drones connected to the server|:heavy_check_mark:|
-|Needs to add a new drone to the list of drones connected when a new drone connects to the server using the API endpoint ` /drones/{dname}`|Use the simulated drone tool to register itself with the server, then verify it's successes using the `/drones` API endpoint.|The server should return a JSON object indicating if it could successfully add a new drone to the connected drone list or not.|The Server returns a JSON object with a 200 status code indicating a success which can be verifiable using the `/drones` endpoint or the GUI.|:heavy_check_mark:|
-|Needs to remove a drone from the list of connected drones when a drone disconnects using the API endpoint `/removedrone/{dname}`|Us the simulated drone tool to disconnect from the server, then verify it's successes using the `/drones` API endpoint.|The server should return a JSON object indicating if it could successfully remove the drone from the connected drone list or not.|The Server returns a JSON object with a 200 status code indicating a success which can be verifiable using the `/drones` endpoint or the GUI.|:heavy_check_mark:|
-|Open a websocket with the drones ID when a drone connects and emmit the data the drone sends to the server to that websocket|Use the simulated drone tool to connect to and send data to the server then listen to the response on the websocket with the drone ID to see if the server echoes the data sent back.|The console of the simulated drone should display the data it sent to the server/The data should be shown on the GUI|The console does echo the data the drone sent and the GUI does show the data.|:heavy_check_mark:|
-</div>
-
-<div align="center">
-
-### GUI
-
-|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
-|--|--|--|--|:--:|
-|Display the drones that are connected connected to the server on the sidebar with their drone ID|Use the simulated drone to connect to the server and observer the result.|A new drone should show up on the side bar|A drone does show up on the side bar when a new drone connects|:heavy_check_mark:|
-|Listen for data on the websocket of the selected drone|Use the simulated drone to connect a number of drones to the server and send data then select a drone and, see if the GUI displays the data in the console.|The data from the correct connected drone should appear in the console.|The data did appear in the console from the correct drone this will be displayed to the user using the GUI|:heavy_check_mark:|
-|Display the data from the drone on the `Main` page of the GUI if the required format|Send data using the simulated drone tool and observe the page.|The data from the drone should appear in the main page. The feeds from the camera should be in its respective box's, the geiger dial should change depending on the reading. The other sensor values should be displayed correctly and graphs of the gas detected and the particulates detected should be plot.|Everything works as intended, the camera feeds are displayed in the correct box, the geiger dial changes with the data, the sensor values are displayed properly and the graphs are plotted as intended.|:heavy_check_mark:|
-|Display the AI camera feed from the selected drone on the `AI Cam` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the AI cam should be shown.|Displays the AI Cam in a larger format.|:heavy_check_mark:|
-|Display the Thermal camera feed from the selected drone of the `Thermal Cam` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the thermal camera should be shown|Displays the Thermal Cam in a larger format|:heavy_check_mark:|
-|Display the Radiation history in CPM from the selected drone of the `Radiation History` page of the GUI|Send data using the simulated drone tool and observe the page.|Graph should be shown for the radiation in CPM|Shows Plotly.js graph that records historical radiation values|:heavy_check_mark:|
-|Display the Pollution history from the selected drone of the `Pollution History` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the pollution graph should be shown|A larger version of the pollution graph is shown|:heavy_check_mark:|
-|Display the Gas history from the selected drone of the `Gas History` page of the GUI|Send data using the simulated drone tool and observe the page.|A larger version of the Gas graph should be shown|A larger version of the gas graph is shown|:heavy_check_mark:|
-|Display the drone's position on the map and tag critical reading on the map using the GPS data from the readings.|Send data using the simulated drone tool and observe the page.|A map should be shown the the drones current location, and dangerous locations should be highlighted.|*Feature not implemented yet*|❌|
-
-</div>
-
-<div align="center">
-
-### Actual Drone
-**Subsystem: Geiger Counter**	
-
-|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
-|--|--|--|--|:--:|
-|Functionality of Geiger counter|Plug Gieger directly to computer and view csv values when in range of mild and safe radioactive source. Listen for hum of HV tube. View LED flash|Hardware should react as specified when on switch engaged. CSV values should print automatically onto computer monitor|Hardware reacts as expected. CSV values viewed. CSV values increase when in range of test source|:heavy_check_mark:|
-|Connect to Raspberry Pi Pico|Obtain values directly from Pi Pico and printing them through **chosen software program**|The values should display on in program|Testing not yet implement|To be annouced post testing|
-|Raspberry Pi Pico sends relevant data to the Raspberry Pi 3 master|Obtain values from **serial line/relevant i2c bus" or obtain values from directly from master Pi and printing them through **chosen software program**|Values from Geiger counter only should display in program|Testing not yet implement|To be annouced post testing|
-|Connects to GUI|Radiactivity section on GUI will be viewed when drone is connected to see if data is present|Geiger data from Master Raspberry Pi 3 can be viewed on GUI in relevant section|Testing not yet implement|To be annouced post testing|
-|Correct data is displayed in GUI|Two test sources, of which the team is aware of how many counts should be produced for each, are put in range of the Geiger counter at separate intervals and the data viewed|Data on GUI should correlate with expected results|Testing not yet implement|To be annouced post testing|
-
-*Only parts of the test plan have been developed as some parts and sensors for the drone have not come. Once we receive the parts and validate how they work and their limitations a test plan will be drawn up for that relevant subsystem*
-
-</div>
-
-<div align="center">
-
-### Simulated Drone
-
-|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
-|--|--|--|--|:--:|
-|Connect to the server|Get the drone to connect to the correct server endpoint then verify its connection using the API testing tools/GUI|A new drone should show up on the server|The correct drone is added to the server list.|:heavy_check_mark:|
-|Disconnect from the server|Get the drone to disconnect from the server using the correct endpoint then verify its status using the API testing tools/GUI|The drone should be removed from the server list|The correct drone is removed from the server list.|:heavy_check_mark:|
-|Display the camera feed|Run the program and see if the specified camera feed is displayed|The correct camera feed to be displayed in the camera box|The correct camera that is specified in the code is displayed.|:heavy_check_mark:|
-|Run the object detection neural network on the camera feed|Run the program and observer if it detects objects|Boxes should be drawn around the detected object and the object should be labelled|Boxes are draw around the object and are labelled correctly.|:heavy_check_mark:|
-|Connect to the server websocket|Run the program and attempt to connect to the server.|The client should report that a successful connection was made|The client does report a successful connection|:heavy_check_mark:|
-|Send the data packet to the server|Run the program, connect to the server and send the data. The data should be received by the server and sent to any GUI's connected. If the data is received by the GUI the it was successfully sent|The GUI displays the data correctly|The GUI does display the data correctly.|:heavy_check_mark:|
-
-</div>
-
-
-
 
 ----
 
