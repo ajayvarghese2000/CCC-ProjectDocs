@@ -84,22 +84,25 @@ Operational:To collect data and compile into the interface for the user to view 
 
 | Item 	| Supplier 	| Date Ordered | Date Received | Cost |
 |:--:|:--:|:--:|:--:|:--:|
-| [MLX90540 Thermal Camera](https://shop.pimoroni.com/products/mlx90640-thermal-camera-breakout?variant=12536948654163) | Pimoroni | 16 Dec 2021 || £54.00 |
-|[Enviro+](https://shop.pimoroni.com/products/enviro?variant=31155658457171)| Pimoroni | 16 Dec 2021 ||£48.00|
-|[Geiger Counter](https://thepihut.com/products/geiger-counter-kit-radiation-sensor)| Pi Hut | 16 Dec 2021 || £96.60 |
-|[PMS5003 Particulate Matter Sensor](https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable)| Pimoroni | £24.90 |
-||||**Total Cost**| **£223.50**|
+| [MLX90540 Thermal Camera](https://shop.pimoroni.com/products/mlx90640-thermal-camera-breakout?variant=12536948654163) | Pimoroni | 16 Dec 2021 | 10 Jan 2022 | £54.00 |
+|[Enviro+](https://shop.pimoroni.com/products/enviro?variant=31155658457171)| Pimoroni | 16 Dec 2021 | 10 Jan 2022 |£48.00|
+|[Geiger Counter](https://thepihut.com/products/geiger-counter-kit-radiation-sensor)| Pi Hut | 16 Dec 2021 | 10 Jan 2022 | £96.60 |
+|[PMS5003 Particulate Matter Sensor](https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable)| Pimoroni | 28 Feb 2022 | 03 Mar 2022 | £24.90 |
+|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni |N/A| N/A| £3.60 |
+|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni | N/A | N/A | £3.60 |
+|3D Printed Outer Case|Loughborough University|N/A|N/A| £7.50 |
+|3D Printed Inner Case Items|Loughborough University|N/A|N/A| £2.25 |
+|3D Printed Tri-Pod Mount|Loughborough University|N/A|N/A| £3.00 |
+||||**Total Cost**| **£243.45**|
 
 ### Future Expenditure
 
 | Item 	| Supplier 	| Cost |
 |:--:|:--:|:--:|
 |[NVIDIA Jetson Nano](https://www.robotshop.com/uk/nvidia-jetson-nano-2gb-development-kit-w-wifi-bundle.html)| Robot Shop | £72.59 |
-|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni | £3.60 |
-|[Raspberry Pi Pico](https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227)| Pimoroni | £3.60 |
 |3D Printing Budget| Loughborough University | £25.00 |
 |PCB Fabrication| Loughborough University | £20.00 |
-||**Total Cost**| **£124.79**|
+||**Total Cost**| **£117.59**|
 
 **All prices include VAT @20%**
 
