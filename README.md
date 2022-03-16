@@ -128,7 +128,7 @@ Operational:To collect data and compile into the interface for the user to view 
 | Logitech Camera		| Ajay	 	| 12 Nov 2021 	| 10 Dec 2022	|
 | Tool Bag			| Locker 	| 12 Nov 2021 	| 		|
 | Geiger Counter		| Jen 		| 03 Jan 2022 	| 16 Feb 2022	|
-| MLX90540 Thermal Camera	| Locker 	| 12 Jan 2022 	| 		|
+| MLX90540 Thermal Camera	| Yaa   	| 12 Jan 2022 	| 14 Jan 2022	|
 | Enviro+			| Dev	 	| 12 Jan 2022 	| 		|
 | Particulate Matter Sensor	| Locker 	| 04 Mar 2021 	| 		|
 
