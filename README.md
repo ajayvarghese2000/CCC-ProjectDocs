@@ -151,6 +151,14 @@ The test plan for the subsystems can be found on their respective repos.
 
 [Geiger Counter Test Plan](https://github.com/lboroWMEME-TeamProject/Geiger-Counter#Test-Plan)
 
+[AI-Cam Test Plan](https://github.com/lboroWMEME-TeamProject/ai-cam#Test-Plan)
+
+[Thermal Cam Test Plan](https://github.com/lboroWMEME-TeamProject/Thermal-Camera#Test-Plan)
+
+[Enviro Sensor Test Plan](https://github.com/lboroWMEME-TeamProject/EnviroSensor#Test-Plan)
+
+[Particulates Sensor Test Plan](https://github.com/lboroWMEME-TeamProject/Particulates-Sensor#Test-Plan)
+
 
 *The Simulated Drone project was created explicitly to test the server and GUI without the actual drone needing to be present. This way, development for both those parts of the system can commence even before parts for the drone were ordered.*
 
