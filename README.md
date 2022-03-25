@@ -121,7 +121,7 @@ Operational:To collect data and compile into the interface for the user to view 
 | Raspberry Pi 3 + Accessories	| Yaa	 	| 12 Nov 2021 	| 14 Jan 2022	|
 | Raspberry Pi 3 + Accessories	| Ajay		| 12 Nov 2022 	| 17 Dec 2021	|
 | Raspberry Pi 4 + Accessories	| Ajay 		| 12 Jan 2021 	| 10 Dec 2021 	|
-| Raspberry Pi Pico		| Jen 		| 12 Nov 2021 	| 16 Feb 2022 	|
+| Raspberry Pi Pico		| Ajay 		| 12 Nov 2021 	| 16 Feb 2022 	|
 | Track Robot			| Dev 		| 12 Nov 2021 	| 17 Dec 2021 	|
 | XT60 Battery			| Ajay 		| 12 Nov 2021 	| 04 Mar 2022	|
 | XT60 Battery			| Ajay	 	| 12 Nov 2021 	| 04 Mar 2022	|
@@ -130,7 +130,7 @@ Operational:To collect data and compile into the interface for the user to view 
 | Raspberry Pi Cam		| Locker 	| 12 Nov 2021 	| 		|
 | Logitech Camera		| Ajay	 	| 12 Nov 2021 	| 10 Dec 2022	|
 | Tool Bag			| Locker 	| 12 Nov 2021 	| 		|
-| Geiger Counter		| Jen 		| 03 Jan 2022 	| 16 Feb 2022	|
+| Geiger Counter		| Ajay		| 03 Jan 2022 	| 16 Feb 2022	|
 | MLX90540 Thermal Camera	| Yaa   	| 12 Jan 2022 	| 14 Jan 2022	|
 | Enviro+			| Dev	 	| 12 Jan 2022 	| 		|
 | Particulate Matter Sensor	| Locker 	| 04 Mar 2021 	| 		|
